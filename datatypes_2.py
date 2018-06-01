@@ -47,3 +47,20 @@ for i in keys:
         dict[i] = input()
 print("Dictionary:", dict)
 
+
+#Question 2
+print("Q.2-\n     ")
+print("Sorted Dictionary:")
+for key in sorted(dict):
+    print("%s: %s" % (key, dict[key]))
+
+
+#Question 3
+print("\nQ.3-\n     ")
+string = "MISSISSIPPI"
+m_count = string.count("M")
+i_count = string.count("I")
+s_count = string.count("S")
+p_count = string.count("P")
+dict = {'M':m_count, 'I':i_count, 'S':s_count, 'P':p_count}
+print("Dictionary:", dict)
