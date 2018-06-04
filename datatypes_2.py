@@ -44,15 +44,15 @@ dict = {}
 keys = ["Smriti", "Siddhant", "Vipul", "Piyush", "Simran", "Tushar", "Radhika", "Shreya", "Rajat", "Shaffi"]
 for i in keys:
         print("Enter marks of %s: " % i)
-        dict[i] = input()
+        dict[i] = int(input())
 print("Dictionary:", dict)
 
 
 #Question 2
 print("Q.2-\n     ")
 print("Sorted Dictionary:")
-for key in sorted(dict):
-    print("%s: %s" % (key, dict[key]))
+
+#for key in sorted(dict.values()):
 
 
 #Question 3
