@@ -5,6 +5,7 @@ def area():
     print('Area of the sphere is:', area)
     return
 
+
 area()
 
 
