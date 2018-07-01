@@ -41,7 +41,7 @@ exitButton.pack(side=LEFT)
 changeButton=Button(frame,text='CHANGE',highlightbackground='green',fg='green', command=labelchange)
 changeButton.pack(side=RIGHT)
 root.mainloop()
-
+'''
 
 #Question 4
 from tkinter import *
@@ -59,4 +59,3 @@ e2 = Entry(master)
 e1.grid(row=0,column=1)
 e2.grid(row=1,column=1)
 mainloop()
-'''
